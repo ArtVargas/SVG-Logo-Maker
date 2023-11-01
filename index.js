@@ -1,7 +1,7 @@
 const inquirer = require ("inquirer");
 const fs = require ("fs");
 
-const {Triangle, Square, Circle} = require("./Lib/shapes");
+const {Triangle, Square, Circle} = require("./Lib/shape");
 
 // Function to write the SVG file using user answers from inquirer//
 
@@ -11,7 +11,7 @@ let svgString= ""
 
 svgString=
 
-'<svg version= "1.1" width= "300" height= "200"> ';
+'<svg version= "1.1" width= "300" height= "200" xmlns="http://www.w3.org/2000/svg"> '; 
 
 svgString += "<g>";
 
@@ -111,50 +111,13 @@ promptUser();
 
 // Calling the promptUser fucntion for inquirer prompts //
 
-promptUser ();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 
 }
 
-
+promptUser ();
 
 
 
