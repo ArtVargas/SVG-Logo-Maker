@@ -4,6 +4,7 @@ The task is to build a Node.js command-line application that takes in user input
 
 # Live Screen Recording of Application Functionality 
 
+[Link to Recording](https://drive.google.com/file/d/1eKF-yctBpBXGnqSqEqxkpWCl1NWa_Cns/view)
 
 
 # Resource URL
